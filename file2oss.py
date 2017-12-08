@@ -1,4 +1,5 @@
 # coding:utf-8
+# 实现断点续传，传输小于5GB文件
 import oss2
 import os
 import sys
