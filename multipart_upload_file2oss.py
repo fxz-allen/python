@@ -3,6 +3,8 @@ import oss2
 import os
 import sys
 import getopt
+from oss2 import SizedFileAdapter, determine_part_size
+from oss2.models import PartInfo
 
 auth = oss2.Auth('','')
 bucket = oss2.Bucket(auth,'','rec101')
